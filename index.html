@@ -21,7 +21,7 @@
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="inicio">
             <p class="etiqueta">2026</p>
             <p class="hero-etiqueta">PORTFOLIO DAW</p>
             <h1>¡Hola, soy Qing! <br> </h1>
@@ -37,7 +37,7 @@
                 <a href="https://github.com/QingZhao-dev" class="boton-secundario" 
                 target="_blank" rel="noopener noreferrer">Mi GitHub ↗</a>
                 <a href="#" class="boton-secundario">Mi CV ↗</a>
-                <a href="#" class="boton-secundario">LinkedIn ↗</a>
+                <a href="https://www.linkedin.com/in/qing-zhao-06714b382/" class="boton-secundario">LinkedIn ↗</a>
             </div>
 
         </section>
@@ -79,96 +79,150 @@
             </div>
         </section>
 
+<section id="proyectos">
+    <h2>Proyectos</h2>
+    <p>
+        Esta selección reúne proyectos y ejercicios desarrollados durante mi
+        formación en DAW. Cada uno me permite poner en práctica diferentes
+        tecnologías, reforzar conceptos y aprender a resolver problemas
+        mediante la programación.
+    </p>
 
-        <section id="proyectos">
-            <h2>Proyectos</h2>
-            <p>En esta sección podemos encontrar ejercicios y pequeños proyectos desarrollados con los conocimientos 
-                adquiridos durante mi formación. En ellos, utilizo tecnologías web y apoyándome en herramientas de IA
-            para resolver problemas y optimizar el proceso de desarrollo. </p>
+    <div class="proyectos-grid">
 
-            <div class="proyectos-grid">
-                <article class="proyecto">
-                    <h3>Mi portfolio web</h3>
-                    <p>Mi primer proyecto personal: una página web para presentar mi perfil,
-                        mi formación y mis futuros proyectos.</p>
-                    <span>HTML · CSS · JavaScript</span>
-                    <a href="#" class="proyecto-link">Ver proyecto</a>
-                </article>
+        <article class="proyecto">
+            <h3>Mi portfolio web</h3>
+            <p>
+                Proyecto personal creado para presentar mi perfil, mi formación
+                y los trabajos que voy desarrollando. Me permite practicar la
+                estructura de una página web, el diseño adaptable y la
+                organización de contenidos, cuidando tanto la presentación
+                visual como la navegación.
+            </p>
+            <span>HTML · CSS · JavaScript</span>
+            <a href="https://qingzhao-dev.github.io/portfolio/"
+               class="proyecto-link"
+               target="_blank"
+               rel="noopener noreferrer">Ver proyecto</a>
+            <a href="https://github.com/QingZhao-dev/portfolio"
+               class="proyecto-link"
+               target="_blank"
+               rel="noopener noreferrer">Ver código</a>
+        </article>
 
-                
-                <article class="proyecto">
-                    <img src="img/lista_tareas.png" 
-                    alt="Captura de la aplicación de lista de tareas"
-                    class="proyecto-img">
+        <article class="proyecto">
+            <img src="img/lista_tareas.png"
+                 alt="Captura de la aplicación de lista de tareas"
+                 class="proyecto-img">
 
-                    <h3>Lista de tareas</h3>
-                    <p>Una aplicación interactiva para añadir tareas, marcarlas como completadas y eliminarlas, con un diseño adaptable.</p>
-                    <span>HTML · CSS · JavaScript</span>
-                    <a href="https://qingzhao-dev.github.io/lista-tareas/" class="proyecto-link" target="_blank" rel="noopener noreferrer">Ver proyecto</a>
-                </article>
+            <h3>Lista de tareas</h3>
+            <p>
+                Aplicación desarrollada para practicar la manipulación del DOM
+                y la gestión de eventos con JavaScript. Permite añadir tareas,
+                marcarlas como completadas y eliminarlas. HTML y CSS se utilizan
+                para estructurar y diseñar una interfaz sencilla y adaptable.
+            </p>
+            <span>HTML · CSS · JavaScript</span>
+            <a href="https://qingzhao-dev.github.io/lista-tareas/"
+               class="proyecto-link"
+               target="_blank"
+               rel="noopener noreferrer">Ver proyecto</a>
+            <a href="https://github.com/QingZhao-dev/lista-tareas"
+               class="proyecto-link"
+               target="_blank"
+               rel="noopener noreferrer">Ver código</a>
+        </article>
 
-                <article class="proyecto">
-                    <img src="img/calculadora.png" 
-                    alt="Captura de la aplicación de calculadora"
-                    class="proyecto-img">
+        <article class="proyecto">
+            <img src="img/calculadora.png"
+                 alt="Captura de la calculadora de ahorros"
+                 class="proyecto-img">
 
-                    <h3>Calculadora de ahorros</h3>
-                    <p>Una aplicación web sencilla que calcula cuánto dinero falta para alcanzar el objetivo de ahorro.</p>
-                    <span>HTML · CSS · JavaScript</span>
-                    <a href="https://qingzhao-dev.github.io/calculadora-ahorros/" 
-                        class="proyecto-link"
-                        target="_blank"
-                        rel="noopener noreferrer">Ver proyecto</a>
-                </article>
+            <h3>Calculadora de ahorros</h3>
+            <p>
+                Pequeña aplicación creada para practicar el uso de variables,
+                operaciones y cálculos con JavaScript. Permite introducir un
+                objetivo de ahorro y la cantidad disponible para calcular
+                cuánto dinero falta para alcanzarlo.
+            </p>
+            <span>HTML · CSS · JavaScript</span>
+            <a href="https://qingzhao-dev.github.io/calculadora-ahorros/"
+               class="proyecto-link"
+               target="_blank"
+               rel="noopener noreferrer">Ver proyecto</a>
+            <a href="https://github.com/QingZhao-dev/calculadora-ahorros"
+               class="proyecto-link"
+               target="_blank"
+               rel="noopener noreferrer">Ver código</a>
+        </article>
 
-                <article class="proyecto">
+         <article class="proyecto">
+            <img src="img/formulariocaptura.png"
+                 alt="Captura del formulario de inscripción"
+                 class="proyecto-img">
 
-                    <img src="img/biblioteca.png" 
-                    alt="Captura de consola"
-                    class="proyecto-img">
+            <h3>Formulario de inscripción</h3>
+            <p>
+                Ejercicio creado para practicar la validación de formularios
+                y la interacción con el usuario mediante JavaScript. Incluye
+                comprobaciones de los datos introducidos y una pantalla de
+                confirmación personalizada, con una interfaz diseñada en HTML
+                y CSS.
+            </p>
+            <span>HTML · CSS · JavaScript</span>
+              <a href="https://qingzhao-dev.github.io/formulario-inscripci-n/"
+               class="proyecto-link"
+               target="_blank"
+               rel="noopener noreferrer">Ver proyecto</a>
+            <a href="https://github.com/QingZhao-dev/formulario-inscripci-n"
+               class="proyecto-link"
+               target="_blank"
+               rel="noopener noreferrer">Ver código</a>
+        </article>
 
+        <article class="proyecto">
+            <img src="img/biblioteca.png"
+                 alt="Captura de la aplicación de biblioteca en consola"
+                 class="proyecto-img">
 
-                    <h3>Mi biblioteca</h3>
-                    <p>Una aplicación de consola para gestionar una biblioteca personal, con opciones para añadir libros, consultar la colección, actualizar su estado de lectura y eliminar libros.</p>
-                    <span>Java · Programación orientada a objetos</span>
-                    <a href="https://github.com/QingZhao-dev/mi-biblioteca"
-                        class="proyecto-link"
-                        target="_blank"
-                        rel="noopener noreferrer">Ver código</a>
-                </article>
-
-                
-                <article class="proyecto">
-                    <img src="img/formulariocaptura.png" 
-                    alt="Captura del formulario de inscripción"
-                    class="proyecto-img">
-
-                    <h3>Formulario de inscripción</h3>
-                    <p>Un formulario interactivo con validación y una pantalla de confirmación personalizada, desarrollado para practicar la interacción con JavaScript.</p>
-                    <span>HTML · CSS · JavaScript</span>
-                    <a href="https://github.com/QingZhao-dev/formulario-inscripci-n"
-                        class="proyecto-link"
-                        target="_blank"
-                        rel="noopener noreferrer">Ver código</a>
-                </article>
-
-                <article class="proyecto">
-                    <img src="img/productos-categoria-proveedores.png" 
-                    alt="Captura de las tablas en PdAdmin4"
-                    class="proyecto-img">
-
-                    <h3>Inventario de Bellas Artes</h3>
-                    <p>Una base de datos relacional para organizar materiales artísticos, categorías, proveedores y movimientos de stock.</p>
-                    <span>PostgreSQL · SQL</span>
-                    <a href="https://github.com/QingZhao-dev/inventario-bellasartes"
-                        class="proyecto-link"
-                        target="_blank"
-                        rel="noopener noreferrer">Ver código</a>
-                </article>
+            <h3>Mi biblioteca</h3>
+            <p>
+                Aplicación de consola desarrollada para practicar Java y la
+                programación orientada a objetos. Permite gestionar una
+                colección de libros, consultar sus datos, cambiar su estado
+                de lectura y eliminar registros mediante un menú de opciones.
+            </p>
+            <span>Java · Programación orientada a objetos</span>
+            <a href="https://github.com/QingZhao-dev/mi-biblioteca"
+               class="proyecto-link"
+               target="_blank"
+               rel="noopener noreferrer">Ver código</a>
+        </article>
 
 
-            </div>
-        </section>
+        <article class="proyecto">
+            <img src="img/productos-categoria-proveedores.png"
+                 alt="Captura de las tablas y consultas del inventario en pgAdmin"
+                 class="proyecto-img">
+
+            <h3>Inventario de Bellas Artes</h3>
+            <p>
+                Proyecto de base de datos inspirado en la organización de
+                materiales artísticos. Permite practicar el diseño de tablas
+                relacionadas, la definición de claves y la realización de
+                consultas SQL para relacionar productos, categorías y
+                proveedores, así como consultar movimientos de stock.
+            </p>
+            <span>PostgreSQL · SQL</span>
+            <a href="https://github.com/QingZhao-dev/inventario-bellasartes"
+               class="proyecto-link"
+               target="_blank"
+               rel="noopener noreferrer">Ver código</a>
+        </article>
+
+    </div>
+</section>
+
 
         <section id="habilidades">
             <h2>Habilidades</h2>
@@ -205,6 +259,11 @@
                     class="boton-secundario"
                     target="_blank"
                     rel="noopener noreferrer">Mi GitHub</a>
+
+                <a href="https://www.linkedin.com/in/qing-zhao-06714b382/"
+                    class="boton-secundario"
+                    target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a>
             </div>
 
         </section>
@@ -213,6 +272,10 @@
     <footer>
         <p>Diseñado y desarrollado por Qing Zhao - 2026</p>
     </footer>
+
+    
+    <a href="#inicio" class="volver-arriba" aria-label="Volver al principio">↑</a>
+
 </body>
 
 </html>
